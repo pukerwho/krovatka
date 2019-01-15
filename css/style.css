@@ -9678,5 +9678,12 @@ footer {
   width: 100% !important; }
 .woocommerce .wc-proceed-to-checkout a.checkout-button {
   background-color: #56c1a0; }
+  .woocommerce .wc-proceed-to-checkout a.checkout-button:hover {
+    background-color: #40a585; }
+.woocommerce-checkout .col-1, .woocommerce-checkout .col-2 {
+  width: 100% !important;
+  max-width: none !important; }
+.woocommerce-checkout input.input-text, .woocommerce-checkout textarea {
+  padding: 0.8rem; }
 
 /*# sourceMappingURL=style.css.map */
