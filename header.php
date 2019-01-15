@@ -60,7 +60,7 @@
           <a href="#">My Account</a>
         </li> -->
         <li>
-          <a href="#"><i class="fas fa-shopping-bag"></i> | Cart 
+          <a href="/cart"><i class="fas fa-shopping-bag"></i> | Cart 
             <span >
               <?php 
                 global $woocommerce;
