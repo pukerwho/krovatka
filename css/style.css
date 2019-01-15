@@ -9674,5 +9674,9 @@ footer {
   .woocommerce .woocommerce-tabs ul.tabs li:before {
     height: 0px !important;
     width: 0px !important; }
+.woocommerce .cart_totals {
+  width: 100% !important; }
+.woocommerce .wc-proceed-to-checkout a.checkout-button {
+  background-color: #56c1a0; }
 
 /*# sourceMappingURL=style.css.map */
