@@ -43,7 +43,7 @@
 				</div>
 				
 			</div>
-			<div class="col-md-3">
+			<div class="col-md-3 pc-show">
 				<div class="box">
 					<div class="box-title mb-3">
 						Delivery
@@ -69,14 +69,6 @@
 				add_action( 'myupsell', 'woocommerce_upsell_display', 15 );
 				do_action( 'myupsell', 'woocommerce_upsell_display', 15 );
 			?>
-		</div>
-		<div class="row">
-			<div class="col-md-12">
-				<?php 
-				add_action( 'myproduct_related', 'woocommerce_output_related_products', 20 );
-				do_action( 'myproduct_related', 'woocommerce_output_related_products', 20 );
-			?>
-			</div>
 		</div>
 		<?php endwhile; // end of the loop. ?>
 	</div>

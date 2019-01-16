@@ -9799,6 +9799,9 @@ footer {
     .slide-menu_active a {
       font-size: 2rem; }
 
+  #welcome {
+    margin: 7rem 0; }
+
   #video .triangle {
     left: auto;
     border-left: 150px solid transparent;
@@ -9828,6 +9831,15 @@ footer {
 
   .teddy {
     right: 0;
-    z-index: 1; } }
+    z-index: 2; }
+
+  .woocommerce .woocommerce-tabs ul.tabs {
+    margin-bottom: 1rem !important;
+    padding: 0; }
+    .woocommerce .woocommerce-tabs ul.tabs:before {
+      border-bottom: 0px !important; }
+    .woocommerce .woocommerce-tabs ul.tabs li:before {
+      height: 0px !important;
+      width: 0px !important; } }
 
 /*# sourceMappingURL=style.css.map */
