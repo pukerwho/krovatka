@@ -9836,10 +9836,7 @@ footer {
   .woocommerce .woocommerce-tabs ul.tabs {
     margin-bottom: 1rem !important;
     padding: 0; }
-    .woocommerce .woocommerce-tabs ul.tabs:before {
-      border-bottom: 0px !important; }
-    .woocommerce .woocommerce-tabs ul.tabs li:before {
-      height: 0px !important;
-      width: 0px !important; } }
+    .woocommerce .woocommerce-tabs ul.tabs li {
+      width: 100%; } }
 
 /*# sourceMappingURL=style.css.map */
